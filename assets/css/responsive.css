@@ -63,7 +63,9 @@
 	.job-title {
 		font-size: 20px;
 	}
-
+	.job-title2{
+		font-size: 16px;
+	}
 	.hero img {
 		height: 420px;
 	}
@@ -298,14 +300,19 @@
 	}
 
 	.hero h1 {
-		font-size: 32px
+		font-size: 32px;
 		margin-bottom: 10px;
 	}
 
 	.job-title {
 		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	.job-title2 {
+		font-size: 16px;
 		margin-bottom: 20px;
 	}
+
 
 	.hero img {
 		height: 360px

@@ -241,7 +241,7 @@ html, body {
 }
 
 .hero h1 {
-    font-size: 46px;
+    font-size: 42px;
     font-weight: 700;
     margin: 0 0 15px;
     text-transform: uppercase;
@@ -249,10 +249,15 @@ html, body {
 
 .job-title {
     font-size: 22px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     line-height: 1;
 } 
 
+.job-title2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1;
+} 
 .hero img {
     height: 600px;
 }
