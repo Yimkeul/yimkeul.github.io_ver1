@@ -221,20 +221,21 @@ html, body {
 
 .hero .col-md-6:first-child {
     position: absolute;
-    top: 35%;
-    left: 0;
+    top: 40%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     z-index: 2;
+    
 }
 
 .hero .col-md-6:last-child {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    top: 55%;
+    left: 55%;
+    transform: translateY(-50%);
 }
 
 .hero h1 {
@@ -258,6 +259,25 @@ html, body {
 .hero img {
     height: 600px;
 }
+
+@media (min-width:1024px) {
+    
+}
+
+@media (min-width:600px) {
+    .hero .col-md-6:last-child {
+    position: absolute;
+    top: 55%;
+    left: 52%;
+    transform: translateY(-50%);
+}
+}
+@media (max-width:414px) {
+    #hero_ar{
+        display: none;
+    }
+}
+
 
 /* SITEMAIN
 ================================================== */
