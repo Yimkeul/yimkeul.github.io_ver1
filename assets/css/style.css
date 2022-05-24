@@ -260,19 +260,7 @@ html, body {
     height: 600px;
 }
 
-@media (min-width:1024px) {
-    
-}
-
-@media (min-width:600px) {
-    .hero .col-md-6:last-child {
-    position: absolute;
-    top: 55%;
-    left: 52%;
-    transform: translateY(-50%);
-}
-}
-@media (max-width:414px) {
+@media (max-width:630px) {
     #hero_ar{
         display: none;
     }
