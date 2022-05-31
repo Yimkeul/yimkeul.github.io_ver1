@@ -416,7 +416,7 @@ html, body {
 }
 
 .portfolio-item:hover .portfolio-item-info {
-    left: 50px;
+    left: 20px;
     opacity: 1;
 }
 
