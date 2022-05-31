@@ -1,519 +1,743 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-
+  <head>
     <!-- Basic Page Needs
     ================================================== -->
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <title>Welcome to LeeSeJun's Portfolio</title>
 
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="keywords" content="" />
 
     <!-- Mobile Specific Metas
     ================================================== -->
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"
+    />
     <meta name="apple-mobile-web-app-capable" content="yes" />
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
+      rel="stylesheet"
+    />
 
     <!-- Favicon
     ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/favicon.png"
+    />
 
     <!-- Stylesheets
     ================================================== -->
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/responsive.css" rel="stylesheet" />
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-
-    <![endif]-->
+    <!--[if lt IE 9]> <![endif]-->
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 
-      <!-- fontasome -->
-      <script src="https://kit.fontawesome.com/d9c3150fda.js" crossorigin="anonymous"></script>
-  
+    <!-- fontasome -->
+    <script
+      src="https://kit.fontawesome.com/d9c3150fda.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header
+      id="masthead"
+      class="site-header"
+      data-anchor-target=".hero"
+      data-top="background: rgba(255,255,255,0); padding: 30px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0);"
+      data-top-bottom="background: rgba(255,255,255,1); padding: 10px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);"
+    >
+      <nav id="primary-navigation" class="site-navigation">
+        <div class="container">
+          <div class="navbar-header page-scroll">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-target="#portfolio-perfect-collapse"
+              aria-expanded="false"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
 
-</head>
-<body>
+            <!-- <a href="#hero" class="site-logo"><img src="assets/img/logo.png" alt="logo"></a> -->
 
-    <header id="masthead" class="site-header" data-anchor-target=".hero" data-top="background: rgba(255,255,255,0); padding: 30px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0);" data-top-bottom="background: rgba(255,255,255,1); padding: 10px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);">
-        <nav id="primary-navigation" class="site-navigation">
-            <div class="container">
-                <div class="navbar-header page-scroll">
+            <!-- <a href="#hero" class="site-logo"><img src="assets/img/그룹 2.png" alt="logo"></a> -->
+            <a href="#hero" class="site-logo"
+              ><img src="assets/img/그룹 3.png" alt="logo"
+            /></a>
+            <!-- 로고 아이콘 크기 : 136*30px -->
+          </div>
+          <!-- /.navbar-header -->
 
-                    <button type="button" class="navbar-toggle collapsed" data-target="#portfolio-perfect-collapse" aria-expanded="false" >
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    
-                    <!-- <a href="#hero" class="site-logo"><img src="assets/img/logo.png" alt="logo"></a> -->
-                   
-                    <!-- <a href="#hero" class="site-logo"><img src="assets/img/그룹 2.png" alt="logo"></a> -->
-                    <a href="#hero" class="site-logo"><img src="assets/img/그룹 3.png" alt="logo"></a>
-                    <!-- 로고 아이콘 크기 : 136*30px -->
-
-                </div><!-- /.navbar-header -->
-
-                <div class="main-menu" id="portfolio-perfect-collapse">
-
-                    <ul class="nav navbar-nav navbar-right">
-
-                        <li class="page-scroll"><a href="#hero">Home</a></li>
-                        <li class="page-scroll"><a href="#about">About</a></li>
-                        <li class="page-scroll"><a href="#service">Service</a></li>
-                        <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
-                        <!-- <li class="page-scroll"><a href="#contact">Contact</a></li> -->
-                  
-                    </ul><!-- /.navbar-nav -->
-
-                </div><!-- /.navbar-collapse -->
-
-            </div>
-        </nav><!-- /.primary-navigation -->
-    </header><!-- /#header -->
+          <div class="main-menu" id="portfolio-perfect-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="page-scroll"><a href="#hero">Home</a></li>
+              <li class="page-scroll"><a href="#about">About</a></li>
+              <li class="page-scroll"><a href="#service">Service</a></li>
+              <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
+              <!-- <li class="page-scroll"><a href="#contact">Contact</a></li> -->
+            </ul>
+            <!-- /.navbar-nav -->
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+      </nav>
+      <!-- /.primary-navigation -->
+    </header>
+    <!-- /#header -->
 
     <div id="hero" class="hero">
-        <div class="container">
-            <div class="row" >
-                <div class="col-md-6 col-sm-6 " id="hero_text">
-                    <h1>Lee SeJun<small> 이 세준</small> </h1>
-                    <div class="page-scroll">
-                        <p class="job-title">FrontEnd Developer</p>
-                        <p class="job-title2">#Moblie #Web #Hybrid App</p>
-                        <a href="#about" class="btn btn-fill ">About me</a>
-                        <div class="clearfix visible-xxs"></div>
-                        <a href="#portfolio" class="btn btn-border">WORKS</a>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-sm-6" id="hero_ar">
-                    <!-- <img src="assets/img/alex-vidal.png" alt="alex-vidal"> -->
-                    <img src="assets/img/ar.gif" alt="ar" >
-                </div>
-
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6" id="hero_text">
+            <h1>Lee SeJun<small> 이 세준</small></h1>
+            <div class="page-scroll">
+              <p class="job-title">FrontEnd Developer</p>
+              <p class="job-title2">#Moblie #Web #Hybrid App</p>
+              <a href="#about" class="btn btn-fill">About me</a>
+              <div class="clearfix visible-xxs"></div>
+              <a href="#portfolio" class="btn btn-border">WORKS</a>
             </div>
+          </div>
+
+          <div class="col-md-6 col-sm-6" id="hero_ar">
+            <!-- <img src="assets/img/alex-vidal.png" alt="alex-vidal"> -->
+            <img src="assets/img/ar.gif" alt="ar" />
+          </div>
         </div>
-    </div><!-- /.hero -->
+      </div>
+    </div>
+    <!-- /.hero -->
 
     <main id="main" class="site-main">
-
-        <section id="about" class="site-section section-about text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3">
-                        <h2>About</h2>
-                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                        <p>Hello! I'm Lee SeJun, nickname is YimKeul, a Front End developer, mainly develop Hybrid Apps with React Native. Also I create a simple WebStie. I'm currently attending university. If you have a project that you want to get started or think you need my help with something, then get in touch.</p>
-                        <!-- <a href="http://www.grad.illinois.edu/sites/default/files/pdfs/cvsamples.pdf" class="btn btn-fill" target="_blank" download>Download my cv</a> -->
-                        <a href="https://www.instagram.com/leesejun__/" class="btn btn-fill" target="_blank" download>Send DM</a>
-
-
-                    </div>
-                </div>
+      <section id="about" class="site-section section-about text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+              <h2>About</h2>
+              <img src="assets/img/lines.svg" class="img-lines" alt="lines" />
+              <p>
+                Hello! I'm Lee SeJun, nickname is YimKeul, a Front End
+                developer, mainly develop Hybrid Apps with React Native. Also I
+                create a simple WebStie. I'm currently attending university. If
+                you have a project that you want to get started or think you
+                need my help with something, then get in touch.
+              </p>
+              <!-- <a href="http://www.grad.illinois.edu/sites/default/files/pdfs/cvsamples.pdf" class="btn btn-fill" target="_blank" download>Download my cv</a> -->
+              <a
+                href="https://www.instagram.com/leesejun__/"
+                class="btn btn-fill"
+                target="_blank"
+                download
+                >Send DM</a
+              >
             </div>
-        </section><!-- /.secton-about -->
-
-        <section class="site-section section-skills">
-            <div class="container">
-                <div class="text-center">
-                    <h3>My Skills</h3>
-                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="skill">
-                            <h4>java</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="80"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
-                        <div class="skill">
-                            <h4>python</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="60"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
-                        <div class="skill">
-                            <h4>Javascript</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="70"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
-                      
-                        
-                        <!-- 내용 추가시 여기다가 추가 -->
-
-                    </div>
-                    <div class="col-md-4">
-                        <div class="skill">
-                            <h4>react</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="70"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->  
-                        <div class="skill">
-                            <h4>react native</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="70"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
-                    </div>
-                    <div class="col-md-4">
-                        <div class="skill">
-                            <h4>html/css</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="68"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
-                       
-                        <div class="skill">
-                            <h4>android studio</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="50"></div><!-- /.progress-bar -->
-                            </div>
-                        </div>
-                    
-                    </div>
-
-                    
-                </div>
-            </div>
-        </section><!-- /.secton-skills -->
-
-     
-
-
-<!--테스트세트스-->
-<section id="service" class="site-section section-services overlay text-center">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h3>What i do</h3>
-                <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-            </div>
-
-            <div class="col-md-8">
-
-                <div class="col-sm-6">
-                    <div class="service">
-                        <img src="assets/img/front-end.svg" alt="Front End Developer">
-                        <h4>Front-end</h4>
-                        <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>
-                    </div><!-- /.service -->
-                </div>
-                <div class="col-sm-6">
-                    <div class="service">
-                        <img src="assets/img/front-end.svg" alt="Front End Developer">
-                        <h4>Back-end</h4>
-                        <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>
-                    </div><!-- /.service -->
-                </div>
-                <div class="col-sm-6">
-                    <div class="service">
-                        <img src="assets/img/front-end.svg" alt="Front End Developer">
-                        <h4>Front-end</h4>
-                        <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>
-                    </div><!-- /.service -->
-                </div>
-                <div class="col-sm-6">
-                    <div class="service">
-                        <img src="assets/img/front-end.svg" alt="Front End Developer">
-                        <h4>Front-end</h4>
-                        <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>
-                    </div><!-- /.service -->
-                </div>
-                <div class="col-sm-6">
-                    <div class="service">
-                        <img src="assets/img/front-end.svg" alt="Front End Developer">
-                        <h4>Back-end</h4>
-                        <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>
-                    </div><!-- /.service -->
-                </div>
-            </div>
-
-         <div class="col-md-4 col-sm-12">
-
-             <div class="service">
-                 <img src="assets/img/front-end.svg" alt="Front End Developer">
-                 <h4>Back-end</h4>
-                 <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>
-                 <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>
-                 <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>
-                 <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>
-                 <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>
-                 <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>
-                 <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>
-                 <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>
-                </div><!-- /.service -->
-            </div>
-
-
-            
+          </div>
         </div>
-    </div>
-</section><!-- /.secton-services -->
+      </section>
+      <!-- /.secton-about -->
+
+      <section class="site-section section-skills">
+        <div class="container">
+          <div class="text-center">
+            <h3>My Skills</h3>
+            <img src="assets/img/lines.svg" class="img-lines" alt="lines" />
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="skill">
+                <h4>java</h4>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    data-transitiongoal="80"
+                  ></div>
+                  <!-- /.progress-bar -->
+                </div>
+                <!-- /.progress -->
+              </div>
+              <!-- /.skill -->
+              <div class="skill">
+                <h4>python</h4>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    data-transitiongoal="60"
+                  ></div>
+                  <!-- /.progress-bar -->
+                </div>
+                <!-- /.progress -->
+              </div>
+              <!-- /.skill -->
+              <div class="skill">
+                <h4>Javascript</h4>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    data-transitiongoal="70"
+                  ></div>
+                  <!-- /.progress-bar -->
+                </div>
+                <!-- /.progress -->
+              </div>
+              <!-- /.skill -->
+
+              <!-- 내용 추가시 여기다가 추가 -->
+            </div>
+            <div class="col-md-4">
+              <div class="skill">
+                <h4>react</h4>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    data-transitiongoal="70"
+                  ></div>
+                  <!-- /.progress-bar -->
+                </div>
+                <!-- /.progress -->
+              </div>
+              <!-- /.skill -->
+              <div class="skill">
+                <h4>react native</h4>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    data-transitiongoal="70"
+                  ></div>
+                  <!-- /.progress-bar -->
+                </div>
+                <!-- /.progress -->
+              </div>
+              <!-- /.skill -->
+            </div>
+            <div class="col-md-4">
+              <div class="skill">
+                <h4>html/css</h4>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    data-transitiongoal="68"
+                  ></div>
+                  <!-- /.progress-bar -->
+                </div>
+                <!-- /.progress -->
+              </div>
+              <!-- /.skill -->
+
+              <div class="skill">
+                <h4>android studio</h4>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    data-transitiongoal="50"
+                  ></div>
+                  <!-- /.progress-bar -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.secton-skills -->
+
+      <!--테스트세트스-->
+      <section
+        id="service"
+        class="site-section section-services overlay text-center"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3>What i do</h3>
+              <img src="assets/img/lines.svg" class="img-lines" alt="lines" />
+            </div>
+
+            <div class="col-md-12">
+              <div class="col-sm-4">
+                <div class="service">
+                  <!-- <img
+                    src="assets/img/front-end.svg"
+                    alt="Front End Developer"
+                  /> -->
+                  <img src="assets/img/hat.png" id = "me"/>
+                  <h4>GRADUATION</h4>
+                  <p>
+                    As a javascript developer, I have experience in HTML5 and
+                    CSS3 techniques working with jQuery or more advanced
+                    javascript MVC frameworks such as angular
+                  </p>
+                </div>
+                <!-- /.service -->
+              </div>
+        
+        
+              <div class="col-sm-4">
+                <div class="service">
+                  <img
+                    src="assets/img/career.png"
+                    alt="Front End Developer"
+                    id="me"
+                    />
+                  <h4>CAREER</h4>
+                  <p>
+                    As a javascript developer, I have experience in HTML5 and
+                    CSS3 techniques working with jQuery or more advanced
+                    javascript MVC frameworks such as angular
+                  </p>
+                </div>
+                <!-- /.service -->
+              </div>
+
+              <div class="col-sm-4">
+                <div class="service">
+                  <img
+                    src="assets/img/conversation.png"
+                    alt="Front End Developer"
+                    id="me"
+                  />
+                  <h4>ACTIVITY</h4>
+                  <p>
+                    As a javascript developer, I have experience in HTML5 and
+                    CSS3 techniques working with jQuery or more advanced
+                    javascript MVC frameworks such as angular
+                  </p>
+                </div>
+                <!-- /.service -->
+              </div>
+              <div class="col-sm-12">
+                  <p></p>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="service">
+                  <img
+                  src="assets/img/driving-license.png"
+                  alt="Front End Developer"
+                  id="me"
+                  />
+                  <h4>CERTIFICATE</h4>
+                  <p>
+                    As a javascript developer, I have experience in HTML5 and
+                    CSS3 techniques working with jQuery or more advanced
+                    javascript MVC frameworks such as angular
+                  </p>
+                </div>
+                <!-- /.service -->
+              </div>
+              <div class="col-sm-6">
+                <div class="service">
+                  <img
+                    src="assets/img/trophy.png"
+                    alt="Front End Developer"
+                    id="me"
+                  />
+                  <h4>AWARD</h4>
+                  <p>
+                    As a javascript developer, I have experience in HTML5 and
+                    CSS3 techniques working with jQuery or more advanced
+                    javascript MVC frameworks such as angular
+                  </p>
+                </div>
+                <!-- /.service -->
+              </div>
 
 
+            </div>
+
+            <!-- <div class="col-md-4 col-sm-12">
+              <div class="service">
+                <img src="assets/img/front-end.svg" alt="Front End Developer" />
+                <h4>Back-end22</h4>
+              </div>
+            </div> -->
 
 
+          </div>
+        </div>
+      </section>
+      <!-- /.secton-services -->
 
+      <section class="site-section section-counters text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12">
+              <p class="counter start" data-to="2" data-speed="2000">0</p>
+              <h4>Years Experience</h4>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+              <p class="counter start" data-to="3" data-speed="2000">0</p>
+              <h4>Projects Delivered</h4>
+            </div>
 
-
-
-
-
-
-
-
-
-
-        <section class="site-section section-counters text-center">
-            <div class="container" >
-                <div class="row"  >
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <p class="counter start" data-to="2" data-speed="2000">0</p>
-                        <h4>Years Experience</h4>        
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <p class="counter start" data-to="3" data-speed="2000">0</p>       
-                        <h4>Projects Delivered</h4>      
-                    </div>
-                    
-                    <!-- <div class="col-sm-4 col-xs-12">
+            <!-- <div class="col-sm-4 col-xs-12">
                         <p id="infinity" class="counter" data-from="0" data-to="1" data-speed="1000">0</p>
                         <h4>Seconds on this site!<br>What are you waiting for?</h4>
                     </div> -->
+          </div>
+        </div>
+      </section>
+      <!-- /.section-counters -->
+
+      <section id="portfolio" class="site-section section-portfolio">
+        <div class="container">
+          <div class="text-center">
+            <h3>My recent Works</h3>
+            <img src="assets/img/lines.svg" class="img-lines" alt="lines" />
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-xs-6">
+              <div class="portfolio-item">
+                <img src="assets/img/portfolio-1.jpg" class="img-res" alt="" />
+                <div class="portfolio-item-info">
+                  <h4>WEAR SCENT</h4>
+                  <a href="#" data-toggle="modal" data-target="#portfolioItem1"
+                    ><span class="glyphicon glyphicon-eye-open"></span
+                  ></a>
+                  <a href="#"><span class="glyphicon glyphicon-link"></span></a>
                 </div>
+                <!-- /.portfolio-item-info -->
+              </div>
+              <!-- /.portfolio-item -->
             </div>
-        </section><!-- /.section-counters -->
-
-        <section id="portfolio" class="site-section section-portfolio">
-            <div class="container">
-                <div class="text-center">
-                    <h3>My recent Works</h3>
-                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+            <div class="col-md-4 col-xs-6">
+              <div class="portfolio-item">
+                <img src="assets/img/portfolio-2.jpg" class="img-res" alt="" />
+                <div class="portfolio-item-info">
+                  <h4>RECOMMAND MENU</h4>
+                  <a href="#" data-toggle="modal" data-target="#portfolioItem2"
+                    ><span class="glyphicon glyphicon-eye-open"></span
+                  ></a>
+                  <a href="#"><span class="glyphicon glyphicon-link"></span></a>
                 </div>
-                <div class="row">
-                    <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/portfolio-1.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>WEAR SCENT</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem1"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/portfolio-2.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>RECOMMAND MENU</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/portfolio-3.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>모바일 휴가증</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/portfolio-4.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Project Title4</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem4"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/portfolio-5.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Project Title5</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem5"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/portfolio-6.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Project Title6</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem6"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
+                <!-- /.portfolio-item-info -->
+              </div>
+              <!-- /.portfolio-item -->
+            </div>
+            <div class="col-md-4 col-xs-6">
+              <div class="portfolio-item">
+                <img src="assets/img/portfolio-3.jpg" class="img-res" alt="" />
+                <div class="portfolio-item-info">
+                  <h4>모바일 휴가증</h4>
+                  <a href="#" data-toggle="modal" data-target="#portfolioItem3"
+                    ><span class="glyphicon glyphicon-eye-open"></span
+                  ></a>
+                  <a href="#"><span class="glyphicon glyphicon-link"></span></a>
                 </div>
+                <!-- /.portfolio-item-info -->
+              </div>
+              <!-- /.portfolio-item -->
             </div>
-        </section><!-- /.secton-portfolio -->
-
-
-        <section id="contact" class="site-section section-form text-center">
-            <div class="container">
-
-                <h3>Thank you for your visit</h3>
-                <img src="assets/img/lines.svg" class="img-lines" alt="lines"> -->
+            <div class="col-md-4 col-xs-6">
+              <div class="portfolio-item">
+                <img src="assets/img/portfolio-4.jpg" class="img-res" alt="" />
+                <div class="portfolio-item-info">
+                  <h4>Project Title4</h4>
+                  <a href="#" data-toggle="modal" data-target="#portfolioItem4"
+                    ><span class="glyphicon glyphicon-eye-open"></span
+                  ></a>
+                  <a href="#"><span class="glyphicon glyphicon-link"></span></a>
+                </div>
+                <!-- /.portfolio-item-info -->
+              </div>
+              <!-- /.portfolio-item -->
             </div>
-        </section>
-        <!-- /.section-form -->
+            <div class="col-md-4 col-xs-6">
+              <div class="portfolio-item">
+                <img src="assets/img/portfolio-5.jpg" class="img-res" alt="" />
+                <div class="portfolio-item-info">
+                  <h4>Project Title5</h4>
+                  <a href="#" data-toggle="modal" data-target="#portfolioItem5"
+                    ><span class="glyphicon glyphicon-eye-open"></span
+                  ></a>
+                  <a href="#"><span class="glyphicon glyphicon-link"></span></a>
+                </div>
+                <!-- /.portfolio-item-info -->
+              </div>
+              <!-- /.portfolio-item -->
+            </div>
+            <div class="col-md-4 col-xs-6">
+              <div class="portfolio-item">
+                <img src="assets/img/portfolio-6.jpg" class="img-res" alt="" />
+                <div class="portfolio-item-info">
+                  <h4>Project Title6</h4>
+                  <a href="#" data-toggle="modal" data-target="#portfolioItem6"
+                    ><span class="glyphicon glyphicon-eye-open"></span
+                  ></a>
+                  <a href="#"><span class="glyphicon glyphicon-link"></span></a>
+                </div>
+                <!-- /.portfolio-item-info -->
+              </div>
+              <!-- /.portfolio-item -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.secton-portfolio -->
 
-
-
-        
-
-
-    </main><!-- /#main -->
+      <section id="contact" class="site-section section-form text-center">
+        <div class="container">
+          <h3>Thank you for your visit</h3>
+          <img src="assets/img/lines.svg" class="img-lines" alt="lines" /> -->
+        </div>
+      </section>
+      <!-- /.section-form -->
+    </main>
+    <!-- /#main -->
 
     <footer id="colophon" class="site-footer">
-        <div class="container" >
-            <div class="row">
-                <div class="col-sm-4 col-xs-12">
-                    <!-- <a class="icon facebook-bg" href="#"><i class="icon-facebook"></i></a> -->
-                    <a class="icon instagram-bg" href="https://www.instagram.com/leesejun__/" target='_blank'><i class="fa-brands fa-instagram"></i></a>
-                    <a class ="icon github-bg" href="https://github.com/yimkeul" target="_blank"><i class="fa-brands fa-github"></i></a>
-                </div>
-                <div class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3"><p class="copyright">2022. All Rights Lee Se Jun</p></div>
-                <div class="col-sm-4 col-xs-3">
-                    <div class="text-right page-scroll">
-                        <a class="icon icon-up-bg" href="#hero"><i class="icon-up"></i></a>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 col-xs-12">
+            <!-- <a class="icon facebook-bg" href="#"><i class="icon-facebook"></i></a> -->
+            <a
+              class="icon instagram-bg"
+              href="https://www.instagram.com/leesejun__/"
+              target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              class="icon github-bg"
+              href="https://github.com/yimkeul"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+          <div class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3">
+            <p class="copyright">2022. All Rights Lee Se Jun</p>
+          </div>
+          <div class="col-sm-4 col-xs-3">
+            <div class="text-right page-scroll">
+              <a class="icon icon-up-bg" href="#hero"
+                ><i class="icon-up"></i
+              ></a>
             </div>
+          </div>
         </div>
-    </footer><!-- /#footer -->
+      </div>
+    </footer>
+    <!-- /#footer -->
     <!-- Modals -->
     <div id="portfolioItem1" class="modal fade" role="dialog">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/portfolio-1.jpg" alt="">
+            <a class="close" data-dismiss="modal"
+              ><span class="glyphicon glyphicon-remove"></span
+            ></a>
+            <img class="img-res" src="assets/img/portfolio-1.jpg" alt="" />
           </div>
           <div class="modal-body">
             <h4 class="modal-title">Project title</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              commodo finibus tristique. Maecenas dignissim condimentum sem eu
+              tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut
+              urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet
+              turpis facilisis consectetur quis vel ante. Integer in massa ut
+              nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante
+              placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor
+              non hendrerit.
+            </p>
           </div>
           <div class="modal-footer">
             <a href="#" data-dismiss="modal" class="btn btn-fill">Close</a>
           </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
 
     <div id="portfolioItem2" class="modal fade" role="dialog">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/portfolio-2.jpg" alt="">
+            <a class="close" data-dismiss="modal"
+              ><span class="glyphicon glyphicon-remove"></span
+            ></a>
+            <img class="img-res" src="assets/img/portfolio-2.jpg" alt="" />
           </div>
           <div class="modal-body">
             <h4 class="modal-title">Project title</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              commodo finibus tristique. Maecenas dignissim condimentum sem eu
+              tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut
+              urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet
+              turpis facilisis consectetur quis vel ante. Integer in massa ut
+              nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante
+              placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor
+              non hendrerit.
+            </p>
           </div>
           <div class="modal-footer">
             <a href="#" class="btn btn-fill">Visit Page</a>
           </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
 
     <div id="portfolioItem3" class="modal fade" role="dialog">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/portfolio-3.jpg" alt="">
+            <a class="close" data-dismiss="modal"
+              ><span class="glyphicon glyphicon-remove"></span
+            ></a>
+            <img class="img-res" src="assets/img/portfolio-3.jpg" alt="" />
           </div>
           <div class="modal-body">
             <h4 class="modal-title">Project title</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              commodo finibus tristique. Maecenas dignissim condimentum sem eu
+              tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut
+              urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet
+              turpis facilisis consectetur quis vel ante. Integer in massa ut
+              nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante
+              placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor
+              non hendrerit.
+            </p>
           </div>
           <div class="modal-footer">
             <a href="#" class="btn btn-fill">Visit Page</a>
           </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
 
     <div id="portfolioItem4" class="modal fade" role="dialog">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/portfolio-4.jpg" alt="">
+            <a class="close" data-dismiss="modal"
+              ><span class="glyphicon glyphicon-remove"></span
+            ></a>
+            <img class="img-res" src="assets/img/portfolio-4.jpg" alt="" />
           </div>
           <div class="modal-body">
             <h4 class="modal-title">Project title</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              commodo finibus tristique. Maecenas dignissim condimentum sem eu
+              tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut
+              urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet
+              turpis facilisis consectetur quis vel ante. Integer in massa ut
+              nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante
+              placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor
+              non hendrerit.
+            </p>
           </div>
           <div class="modal-footer">
             <a href="#" class="btn btn-fill">Visit Page</a>
           </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
 
     <div id="portfolioItem5" class="modal fade" role="dialog">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/portfolio-5.jpg" alt="">
+            <a class="close" data-dismiss="modal"
+              ><span class="glyphicon glyphicon-remove"></span
+            ></a>
+            <img class="img-res" src="assets/img/portfolio-5.jpg" alt="" />
           </div>
           <div class="modal-body">
             <h4 class="modal-title">Project title</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              commodo finibus tristique. Maecenas dignissim condimentum sem eu
+              tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut
+              urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet
+              turpis facilisis consectetur quis vel ante. Integer in massa ut
+              nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante
+              placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor
+              non hendrerit.
+            </p>
           </div>
           <div class="modal-footer">
             <a href="#" class="btn btn-fill">Visit Page</a>
           </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
 
     <div id="portfolioItem6" class="modal fade" role="dialog">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/portfolio-6.jpg" alt="">
+            <a class="close" data-dismiss="modal"
+              ><span class="glyphicon glyphicon-remove"></span
+            ></a>
+            <img class="img-res" src="assets/img/portfolio-6.jpg" alt="" />
           </div>
           <div class="modal-body">
             <h4 class="modal-title">Project title</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              commodo finibus tristique. Maecenas dignissim condimentum sem eu
+              tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut
+              urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet
+              turpis facilisis consectetur quis vel ante. Integer in massa ut
+              nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante
+              placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor
+              non hendrerit.
+            </p>
           </div>
           <div class="modal-footer">
             <a href="#" class="btn btn-fill">Visit Page</a>
           </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -525,6 +749,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
     <script src="assets/js/jquery.countTo.min.js"></script>
     <script src="assets/js/script.js"></script>
-  
-</body>
+  </body>
 </html>
