@@ -274,7 +274,7 @@ th {
   display: inline-block;
   font-family: "Glyphicons Halflings";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2039,7 +2039,6 @@ pre code {
   }
   .col-md-5 {
     width: 41.66666667%;
-
   }
   .col-md-4 {
     width: 33.33333333%;
@@ -6211,7 +6210,7 @@ button.close {
 }
 .modal {
   position: fixed;
-  top: -3%;
+  top: 5%;
   right: 0;
   bottom: 0;
   left: 0;
