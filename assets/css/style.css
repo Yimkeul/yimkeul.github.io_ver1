@@ -379,6 +379,10 @@ body {
 
 /* Section: Portfolio */
 .section-portfolio {
+  padding-bottom: 30px;
+}
+
+.section-other-portfolio {
   padding-bottom: 120px;
 }
 
